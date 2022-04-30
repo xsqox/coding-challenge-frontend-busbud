@@ -6,7 +6,7 @@ Deployed at:  https://busbud-challenge-baluk.herokuapp.com/
 
 API accepts params to configure locations, date and other options (though geohash codes are limited to Montreal and Quebec)
 
-### Available Scripts for serveer
+### Available Scripts for server
 
 In the project directory, you can run:
 
@@ -20,8 +20,6 @@ Launches the test runner in the interactive watch mode.
 ## Micro webapp to display UI to trigger search for bus trips for a fixed date, fixed locations
 
 It does not have dynamic controls for selecting date, locations and other options.
-
-I have opted to use Material-UI for easy responsiveness and accessibility
 
 For production app, I would also set up css variables to be used with css-modules for the purposes of the app theme/color pallette
 
