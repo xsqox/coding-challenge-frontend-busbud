@@ -1,0 +1,30 @@
+@import '../../css/variables.css';
+
+.wrapper {
+    text-align: center;
+}
+
+.main {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.logo {
+    width: 90%;
+    height: 90%;
+}
+
+button .link:focus {
+    outline: none;
+}
+
+.link, .link:visited, .link:hover, .link:active {
+    color: #fff;
+    text-decoration: none;
+}
